@@ -1,0 +1,216 @@
+/* ff004f */
+body{
+    background-color: #1f242d;
+    font-family: sans-serif;
+    color: white;
+}
+.navbar{
+    border-bottom: 0.5px solid rgb(141, 52, 52);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.my{
+    color: #f0326e;
+}
+.my:hover{
+    color: white;
+}
+.my1{
+    padding-left: 470px;
+}
+.home{
+    margin: 150px 0;
+}
+.home h3{
+    font-size: 32px;
+}
+.home h1{
+    font-size: 63px;
+    line-height: 1.2;
+}
+.home p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+    width: 88%;
+}
+.home span,.about h5 span{
+    color: #f0326e;
+}
+.text{
+    color: rgb(224, 218, 218);
+    letter-spacing: 0.4px;
+}
+.circle img {
+    display: flex;
+    margin-left: 70px;
+    height: 350px;
+    width: 350px;
+    border: 8px solid #2C2F3F;
+    border-radius: 200px;
+}
+.home .icon{
+    padding: 8px; 
+    border: 2px solid #f0326e;
+    color: #f0326e;
+    /* height: 40px; */
+    /* width: 40px; */
+    border-radius: 50%;
+    margin: 30px 15px 30px 0;
+    font-size: 21px;
+}
+.home .icon:hover{
+    background-color: #f0326e;
+    color: #2C2F3F;
+}
+.about,.project{
+    margin: 230px 0 180px 0;
+    letter-spacing: 0.4px;
+}
+.about p{
+    line-height: 1.6;
+    color: rgba(248, 233, 248, 0.8);
+}
+.about h1,.skills h1,.project h1,.contact h1{
+    font-size: 75px;
+    margin-bottom: 15px;
+}
+.about h5{
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+.sp{
+    margin-left: 15px;
+    color:  rgba(248, 233, 248, 0.8);
+    font-size: 18px;
+    line-height: 40px;
+}
+.about ul li{
+    list-style: none;
+}
+.circles img{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: 8px solid #2C2F3F;
+    border-radius: 200px;
+}
+.get{
+    line-height: 33px;
+    margin-top: 33px;
+}
+.sk img{
+    border-radius: 9px;
+    border: 2px solid #f0326e;
+}
+.lan{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.progress-bar{
+    background-color: #f0326e;
+}
+.l1{
+    margin-left: 385px;
+}
+.l2{
+    margin-left: 395px;
+}
+.l3{
+    margin-left: 322px;
+}
+.r2{
+    margin-top: 45px;
+}
+.un{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    text-decoration-color: #f0326e;
+}
+
+.progress-circle {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: conic-gradient(
+      #f0326e calc(var(--progress) * 1%), 
+      #e9ecef calc(var(--progress) * 1%)
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  .progress-circle::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #2C2F3F;
+    border-radius: 50%;
+  }
+  .progress-circle span {
+    position: relative;
+    z-index: 1;
+    font-size: 1.5em;
+    color: #f0326e;
+}
+
+.zoom{
+    transition: transform 0.5s ease-in-out;
+}
+.zoom:hover{
+    transform: scale(1.1);
+}
+.p img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.name{
+    background-color: white;
+    color: #2C2F3F;
+    margin: 0 18px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-top: 15px;
+    font-weight: 600;
+}
+.name button{
+    background-color: #f0326e;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.name button:hover{
+    background-color: white;
+    color: #f0326e;
+    text-decoration: underline;
+}
+.line{
+    color: rgba(248, 233, 248, 0.8);
+}
+.out{
+    border-radius: 50%;
+    border: none;
+    padding: 32px;
+    background-color: #2C2F3F;
+    color: #f0326e;
+}
+.contact p{
+    font-size: 17px;
+    margin-top: 15px;
+    color: rgba(248, 233, 248, 0.8);
+}
+.shad img,.shad .name{
+    box-shadow: 2px 3px 8px #797979;
+}
+.footer{
+    background-color: #2C2F3F;
+    padding: 30px;
+    font-size: 18px;
+    padding-top: 60px;
+}
